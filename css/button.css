@@ -13,6 +13,7 @@
 .more-button {
   width: 374px;
   margin-right: 16px;
+  margin-left: auto;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -48,13 +49,13 @@
   display: none;
   flex-direction: column;
   border-radius: 10px;
-  top: -275px;
   right: -20px;
+  bottom: 100%;
   width: 72px;
   height: 268px;
   position: absolute;
   background-color: rgb(37, 38, 50);
-  z-index: 2;
+  z-index: 1;
   align-items: center;
   padding-top: 3px;
   padding-bottom: 3px;
