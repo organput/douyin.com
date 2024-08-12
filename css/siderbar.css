@@ -1,6 +1,6 @@
 .flat-list {
   overflow: auto;
-  height: 520px;
+  height: 100%;
 }
 
 .flat-list::-webkit-scrollbar {
