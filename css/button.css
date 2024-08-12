@@ -18,17 +18,17 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  padding-top: 5px;
 }
 
 .info-button , .info-button-channel {
   display: flex;
   flex-direction: column;
-  padding-top: 6px;
   height: 60px;
   align-items: center;
-  z-index: 3;
+  z-index: 4;
+  margin-bottom: 6px;
 }
+
 
 .info-button-channel {
   position: relative;
