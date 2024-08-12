@@ -184,7 +184,9 @@ export function setComments() {
     comments.map((comment) => {
       if(comment.isShow === true){
         commentHTML += `
+        
           <div class="comments-cards">
+            
             <div class="channel-area">
               <img class="comments-channel" src="${comment.channel}">
             </div>
