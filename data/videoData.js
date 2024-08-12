@@ -87,13 +87,14 @@ export function updateVideo() {
     `
       <div class="swiper-slide">
       <div class="video-grid" id="video-grid-${video.videoId}">
+        
+        <div class="blurOverlay"></div>
         <div class="comments-area" id="comments-area-${video.videoId}">
             <div class="comments-header">
               <div class="header-text">TA的作品</div>
               <div class="header-text-sp">评论</div>
               <div class="header-text">相关推荐</div>
-              <img src="./src/image/close.svg" class="close-button" data-video-id="${video.videoId}">
-              <img src="./src/image/close_white.svg" class="close-button-white">
+              <img src="./src/image/close_white.svg" class="close-button" data-video-id="${video.videoId}">
             </div>
             <div class="comments-display">
               <div class="comments-all" id="comments-all-${video.videoId}"></div>
@@ -106,7 +107,6 @@ export function updateVideo() {
               </div>
             </div>
         </div>
-        <div class="blurOverlay"></div>
         <div class="video-area" id="video-area-${video.videoId}">
           <img src="./src/image/pause_center.svg" class="center-button" id="center-button-${video.videoId}" data-video-id="${video.videoId}">
           <video id="video-player-${video.videoId}" class="video-play" src="${video.videoPath}" data-video-id="${video.videoId}" width="1308" height="560"></video>
