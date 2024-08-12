@@ -7,15 +7,15 @@ export function sideBar() {
     var id = $(this).data('video-id');
     if(isOpenning === false) {
       $(`.comments-area`).css('display','flex');
-      $(`.video-play`).prop('width','934');
-      $(`.video-play`).prop('height','530');
-      $(`.video-area`).css('width','934px');
-      $(`.video-control-grid`).css('width','934px');
+      // $(`.video-play`).css('width','100%');
+      // $(`.video-play`).css('height','80%');
+      $(`.video-area`).css('width','74.5%');
+      $(`.video-control-grid`).css('width','74.5%');
       localStorage.setItem('isopen','true');
     } else {
       $(`.comments-area`).css('display','none');
-      $(`.video-play`).prop('width','1308');
-      $(`.video-play`).prop('height','560');
+      // $(`.video-play`).css('width','100%');
+      // $(`.video-play`).css('height','93%');
       $(`.video-area`).css('width','100%');
       $(`.video-control-grid`).css('width','100%');
       localStorage.setItem('isopen','false');
