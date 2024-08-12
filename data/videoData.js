@@ -98,6 +98,9 @@ export function updateVideo() {
             </div>
             <div class="comments-display">
               <div class="comments-all" id="comments-all-${video.videoId}"></div>
+              <div class="news-area">
+                <div class="news-text">&#10003; Copied</div>
+              </div>
               <div class="comments-list" id="comments-list-${video.videoId}">
                 
               </div>
