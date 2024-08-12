@@ -1,0 +1,179 @@
+.flat-list {
+  overflow: auto;
+  height: 520px;
+}
+
+.flat-list::-webkit-scrollbar {
+  display: none;
+}
+
+.side-container{
+  margin-left: 12px;
+  height: 1000px;
+}
+
+.side-car, .side-car-choosen, .side-car-choosen-special {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 112px;
+  height: 40px;
+  z-index: 1;
+  margin-left: 16px;
+  margin-bottom: 2px;
+  position: relative;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.side-car-choosen, .side-car-choosen-special{
+  position: absolute;
+  left: -30px;
+  top: 1px;
+  background-color: rgba(242, 242, 244, 0.08);
+  border-radius: 10px;
+  width: 128px;
+  opacity: 0;
+}
+
+.refresh {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4px;
+  margin-left: 8px;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.side-car:hover .side-car-choosen, .side-car-choosen-special, .side-car-choosen:hover,.side-car:hover .refresh {
+  opacity: 1;
+}
+
+.car-text, .car-text-choosen {
+  color: rgb(195, 195, 195);
+  font-family: Noto Sans SC;
+  font-size: 14px;
+  margin-left: 12px;
+  width: 40px;
+  white-space:nowrap;
+}
+
+.car-text-choosen {
+  color: white;
+}
+
+.car-img-1,.car-img-2, .car-img-3, .car-img-4, .car-img-5, .car-img-6, .car-img-7,.car-img-8, .car-img-9, .car-img-10, .car-img-11, .car-img-12, .car-img-13, .car-img-14, .car-img-15 {
+  background-image: url("/src/image/long-icon.png");
+  background-position: 0 0;
+  background-size: 1056px;
+  height: 24px;
+  width: 24px;
+  filter: brightness(50%);
+}
+
+.car-img-2 {
+  background-position: -72px 0;
+  filter: brightness(100%);
+}
+
+.car-img-3 {
+  background-position: -96px 0;
+}
+
+.car-img-4 {
+  background-position: -144px 0;
+}
+
+.car-img-5 {
+  background-position: -720px 0;
+}
+
+.car-img-6 {
+  background-position: -192px 0;
+}
+
+.car-img-7 {
+  background-position: -240px 0;
+}
+
+.car-img-8 {
+  background-position: -864px 0;
+}
+
+.car-img-9 {
+  background-position: -384px 0;
+}
+
+.car-img-10 {
+  background-position: -480px 0;
+}
+
+.car-img-11 {
+  background-position: -432px 0;
+}
+
+.car-img-12 {
+  background-position: -672px 0;
+}
+
+.car-img-13 {
+  background-position: -528px 0;
+}
+
+.car-img-14 {
+  background-image: url('/src/image/long-icon2.png');
+  background-position: -1680px 50%;
+  background-size: 864px;
+}
+
+.car-img-15 {
+  background-image: url('/src/image/long-icon2.png');
+  background-position: -1632px 50%;
+  background-size: 864px;
+}
+
+.line-sp {
+  margin-left: 10px;
+  width: 112px;
+  margin-top: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 0.8px;
+  border-bottom-color: rgba(255, 255, 255, 0.04);
+}
+
+.olympics-car {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.olympics-img {
+  width: 128px;
+  height: 40px;
+}
+
+.side-text {
+  margin-left: 10px;
+  margin-top: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Noto Sans SC;
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text-container:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.text-container {
+  height: 8px;
+  margin-right: 12px;
+}
+
+.setting-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

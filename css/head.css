@@ -1,0 +1,119 @@
+.search-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-box {
+  background-color: rgb(22, 24, 35);
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  height: 36.8px;
+  margin-left: 438px;
+  width: 416px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 12px;
+  border-width: 2px;
+}
+
+.search-input {
+  background-color: rgb(22, 24, 35);
+  border: none;
+  outline: none;
+  caret-color: red;
+  font-size: 16px;
+  width: 335px;
+}
+
+.search-input::placeholder {
+  font-size: 14px;
+  font-family: Noto Sans SC;
+  color: white;
+}
+
+.search-input:focus::placeholder {
+  color: gray;
+}
+
+.search-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 8px;
+  width: 69px;
+  height: 100%;
+  border: none;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: rgb(22, 24, 35);
+  padding-left: 8px;
+}
+
+.search-text {
+  margin-left: 3px;
+  font-size: 16px;
+  font-family: Noto Sans SC;
+  font-weight: 500;
+  color: white;
+}
+
+.search-box:hover .search-text {
+  color: rgb(22, 24, 35);
+}
+
+.search-box:hover .search-button{
+  background-color: white;
+}
+
+.search-svg path{
+  fill: white;
+}
+
+.search-box:hover .search-svg path {
+  fill: rgb(22, 24, 35);
+}
+
+.logo-area {
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo-svg {
+  margin-left: 35px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.head-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 337.6px;
+  margin-left: 200px;
+}
+
+.head-button-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.icon-text {
+  font-family: Noto Sans SC;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.user-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}

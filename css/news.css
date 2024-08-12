@@ -1,0 +1,21 @@
+.news-area {
+  position: absolute;
+  top: 120px;
+  left: 1190px;
+  width: 200px;
+  height: 25px;
+  background-color: rgba(177, 231, 208, 0.5);
+  border-radius: 4px;
+  z-index: 2;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.news-text {
+  margin-left: 58px;
+  font-family: Noto Sans SC;
+  font-size: 16px;  
+  color: rgba(4, 85, 24, 0.95);
+}
